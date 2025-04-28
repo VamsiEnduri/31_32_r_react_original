@@ -1,0 +1,26 @@
+ //today we going to discuss about 2 topics 
+ // 1. props
+ // 2. list rendering
+
+
+ 1 props :-- properties
+   props are data carriers  can carry data from one comp to another comp
+    ( parent to child)
+
+    app --> students --> student
+
+
+  types of  props
+  1.general props proName={data}
+  2.children props   
+   <startTag> {data} </EndTag>
+     
+
+
+
+
+     2.list rendering 
+
+     list :- array 
+     arry of data 
+     rendering :-- displaying 
