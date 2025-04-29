@@ -1,0 +1,25 @@
+
+BrowserRouter  :--- 
+it wraps your entire react and enables routing for entire react app
+
+Routes  :-- it is a wrapper which wraps all routes
+Route :-- it maintain individual route with path and element attributes
+
+
+Link :-- this link acts as href attr in anchor tag
+
+
+
+
+
+
+
+
+
+
+useParams
+
+
+@2 react-router-dom
+useNavigate
+useLocation
