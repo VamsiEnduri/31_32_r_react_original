@@ -1,0 +1,291 @@
+pahses 2
+
+
+phase :-- topics interview qns  45 mins
+
+pahse 2 :-- 
+
+comditional rendering with user email loggein and displying thta user data  30 mins
+
+
+
+
+html, css, js, react
+
+
+react qn&ans :--
+
+what is react ? -----------------------
+react is js library which mainly used to to build rich user interfaces with componenet based architecture
+
+what is react so popular ? --------------------
+it is used to create SPAs
+fast and effiecient ( virtual DOM )
+it is having Comp Based architecture
+reusability of a comp 
+JSX :-- 
+one way data flow
+
+what are features of react ? ---------------------
+
+componenet based architecture
+JSX
+virtualDom
+one way data flow
+SPAs
+state management (hooks)
+
+
+what is componenet and write a example ?  -------------------------
+
+componenet is nothing but js function which return JSX
+
+function App(){
+    return (
+        <div></div>
+    )
+}
+
+export default App;
+
+
+
+what is JSX?  ---------------------------
+
+jsx is nothing but html like structure which is mandatiroly should have one single parent
+
+return (
+    <div>
+    <h1></h1>
+    </div>
+)
+
+
+what are the rules of jsx? -------------------------------
+
+1.must have single parent
+2.all tags in jsx should be closed
+3.to use js expressions in jsx , we need to use {}
+4.attributes (className) r css propertys must be written as camelCase
+5.style attribute should have 2 {{}} for using propety:value
+
+
+how many type of comp are there in react?  ------------
+
+we are having 2 type of com in react
+1.functional based comp  --> function
+2.class based comp  --> class 
+
+what is one way data flow in react and how can we do that? -----------
+
+we can send the data in a single chain flow like parent comp --> child comp --> subChild comp --> grandChild comp 
+
+and we do this using props concept in react
+
+
+
+what are the props in react? ----------------
+
+props are the data carriers and we can send the data from one comp to noather comp  ( parent --> child)
+
+
+tyeps of props in react ? and give me examples for each type? ---------------------------
+ 2 type of props are there in react
+ 1.general props just passing data to prop which is attr
+ 2.child props  passing data to child comp inside of it
+
+ general props :-- <ChildComp propName={data}/> usage
+ child props :-- <ChildComp>{data}</ChildComp>
+
+
+ what is list rendering in react ?  --------------
+
+ rendering the array to the ui by mapping it
+
+ ex :-- rendering data which is array of objects  and the data can be related to any data ex:-- products, movies, etc..
+
+ what is conditional rendering in react ? --------------
+
+ we render the comp based on the condition 
+ ex :1-- based on the role of the user , i can display admin dashboard r user dashboard
+ ex :2 :-- hotstar subscriptions, based on the subsscription you show that data whic is related to subscription
+
+
+
+ how can you do routing in react?and what r the comps in router dom?-------------------
+
+ i can do routing in react with react-router-dom which is third party package and i need to install it to my react app with a command
+  npm i react-router-dom
+
+and the comps of routing are 
+<BrowserRouter />
+<Routes />
+<Route />
+<Link>
+useParams ()
+
+
+
+
+explain the comps in routing in deatil ?  -----------------
+
+<BrowserRouter /> :-- to enable routing to our  entire react app
+<Routes /> :-- it is a comp which wraps all single Routes
+<Route /> :-- it is used to define the path and syncable comp of a particular route and attributes are path="" and element=""
+<link></Link> :-- we use this link as a tag and we provide "to" attribute which contains path of a comp
+
+useParams() :-- it is method and which is used to get path params from the route  http://localhost:5173/name="vamsi"&age=26  query params
+
+http://localhost:5173/products/product/1  path params
+{
+    "name":"vamsi",
+    "age":26
+}
+
+explain the folder structure of vite react app ? ---------
+
+node -v :-- to check the verison of node in system 
+npm - :-- to the prseence of npm
+
+npm create vite@latest react_app_name
+
+cd react_app_name :-- changing the dir :-- folder
+
+npm i :-- installing all neccesssary packages to run initial vite react app
+
+npm run dev :-- run the react app
+
+
+
+what is root file in entire react vite app ?
+index.html 
+
+what is entry file r entry point of react app ?
+main.jsx
+
+what is main Comp in react app?
+app.jsx
+
+what is the src folder in react app?
+
+which is main folder where our entire react code presents
+
+
+what is the use of .gitignore file ?
+to ignore files which are not be commited
+
+what is the purpose of pacakge.json ?
+all info about packages and reactapp name and version and scripts and dependencies {}
+
+what is use of package-lock.json ?
+versions manager in all team
+
+what is vite.config.jsx ?
+configurations for vite react app
+port chnage
+add plugins :--  tailwindcss :-- react 
+
+
+what are exports and imports in react and types of it ? -----------
+
+exports are used to export the comp 
+import is used to import the comp
+and we can export comp in 2 ways 
+1.default
+2.named
+
+1. import App from "App.jsx"
+2.import {App} from "App.jsx"
+
+
+
+types of styling in css ? ---------------------
+1.inline
+2.external css
+3.js object kind styling
+
+
+
+
+can i give comp as vamsi :-- no  :-- Vamsi ( comp first letter should be caps)
+
+what will happen if i dont use return keyword in comp ?
+
+what are fragments in react and why we need to use them ?
+
+<></>
+
+<div></div>
+ r 
+ <React.Fragment ></React.Fragment>
+no any extra div adding to real Dom
+
+
+for suppose i send the data as child prop and while reciving the data i will get a object
+
+{children:"vamsi"}  :-- useContext :--  3 child props
+
+
+
+
+
+
+class comp :-- 3-4 days
+
+hooks :--
+useState();  2 days 4-5 scenarios
+useEfefect () :-- 2 days  8-12 scenarios 
+
+tailwindcss  & react-bootstrap
+3-4 days   8 scenarios
+
+optimisation techniques :-- 2 days
+
+react.memo 
+usememo()
+useCallback()
+lazy loading
+
+
+useContext :--   2 days
+ scenarios
+
+
+7 
+10-20
+
+10 + 16 = 26 :--
+
+
+firebase + react project :-- per day  2sessions :-- 1 session :- 2-3 hrs 6hrs 
+
+3 days :-- 18hrs :--  
+
+admins panel 
+user panel + firebase all crud opeartions and deployment
+both panels
+
+30 classes :-- closing of react 
+
+
+html + css + js + react = jan 6 -->  5 mnths
+
+nodejs + expressjs + mongoDB  = 25-30 classes  10  classes
+15 adanced ex+mongoDB
+
+7 days mern stack project :-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
