@@ -56,7 +56,7 @@ const App = () => {
   return (
     <div>
       <Dummy />
-      {/* <FakeData /> */}
+      <FakeData />
       {/* <StrArray />
       <NumArray />
       <ObjectsArray /> */}
