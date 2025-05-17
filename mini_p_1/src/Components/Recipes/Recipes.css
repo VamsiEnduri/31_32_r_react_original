@@ -1,0 +1,24 @@
+.recipesContainer > #allRecipesHolder{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+ gap: 20px;
+ padding: 30px;
+}
+
+#singleRecipeDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    background-color: lightblue;
+
+}
+
+#singleRecipeDetails > #img {
+    width: 300px;
+}
+
+#singleRecipeDetails > #img > img {
+    width:100%;
+}

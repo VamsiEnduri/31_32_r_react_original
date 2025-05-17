@@ -1,0 +1,11 @@
+#navbarScroll{
+    flex-grow: 0 !important;
+}
+
+#navbar{
+    color: white !important;
+}
+
+ a{
+    color: white !important;
+}
